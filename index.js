@@ -5,8 +5,8 @@ const fsPath = require('path');
 // Getting all inputs
 const path = core.getInput('path');
 const pinName = core.getInput('pin-name');
-const pinataApiKey = core.getInput('pinata-api-key');
-const pinataSecretApiKey = core.getInput('pinata-secret-api-key');
+const pinataApiKey = core.getInput('PINATA_API_KEY');
+const pinataSecretApiKey = core.getInput('PINATA_SECRET_API_KEY');
 const verbose = core.getInput('verbose');
 const removeOld = core.getInput('remove-old');
 
