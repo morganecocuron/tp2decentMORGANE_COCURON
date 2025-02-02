@@ -10,7 +10,7 @@ jobs:
         id: deploy
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
         with:
-          pin-name: 'TESTING (v1.6.3)'
+          pin-name: 'FINAL TESTING'
           path: './dist'
           pinata-api-key:  ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_SECRET_API_KEY }}
