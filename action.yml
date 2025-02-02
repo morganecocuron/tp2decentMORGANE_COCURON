@@ -11,10 +11,10 @@ inputs:
   pin-name:
     description: 'Human name for pin'
     required: true
-  pinata-api-key:
+  PINATA_API_KEY:
     description: 'Pinata API key'
     required: true
-  pinata-secret-api-key:
+  PINATA_SECRET_API_KEY:
     description: 'Pinata Secret API key'
     required: true
   remove-old:
